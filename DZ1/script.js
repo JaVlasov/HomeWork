@@ -3,9 +3,9 @@
 let money = prompt("Ваш бюджет на месяц?" , ""),
     time = prompt("Введите дату в формате YYYY-MM-DD" , ""),
     price = prompt("Введите обязательную статью расходов в этом месяце" , ""),
-    Price = prompt("Введите обязательную статью расходов в этом месяце" , ""),
-    cost = prompt("Во сколько обойдется?" , "");
-    cost = prompt("Во сколько обойдется?" , "");
+    price2 = prompt("Введите обязательную статью расходов в этом месяце" , ""),
+    cost = prompt("Во сколько обойдется?" , ""),
+    cost2 = prompt("Во сколько обойдется?" , "");
 
 let appData = {
     budget: money,
@@ -17,7 +17,8 @@ let appData = {
 };
 
 appData.expenses[price] = cost;
+appData.expenses[price2] = cost2;
 
 alert("Бюджет на 1 день:" + " " +  (+money/30) )
 
-// console.log(appData['expenses']);
+console.log(appData['expenses']);
