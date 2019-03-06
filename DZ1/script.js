@@ -88,11 +88,11 @@ function detectLevel() {
 
 function chooseOptExpenses() {
     for (let i = 0; i < 3; i++) {
-        let a = +prompt("Статья необязательных расходов?"); 
-        let numberOfPr = 1;
+        let a = prompt("Статья необязательных расходов?"); 
+        // let numberOfPr = 1;
         if ( (typeof(a)) === "string" && (typeof(a)) != null && a != "" && a.length < 50) {
-            appData.optionalExpenses[numberOfPr] = a;
-            numberOfPr++;
+            appData.optionalExpenses[i+1] = a;
+            // numberOfPr++;
         } else {
             i--;
         }
