@@ -1,0 +1,22 @@
+let btn = document.getElementById("start"),
+    budget = document.querySelectorAll(".budget-value"),
+    level = document.querySelector(".level-value"),
+    expenses = document.querySelector(".expenses-value"),
+    optionalexpenses = document.querySelector(".optionalexpenses-value"),
+    income = document.querySelector(".income-value"),
+    monthsavings = document.querySelector(".monthsavings-value"),
+    yearsavings = document.querySelector(".yearsavings-value"),
+    inp = document.getElementsByClassName("expenses-item"),
+    expensesItemBtn = document.getElementsByTagName("button"),
+    optionalExpensesBtn = document.getElementsByTagName("button"),
+    countBudgetBtn = document.getElementsByTagName("button"),
+    optexpenses = document.querySelectorAll(".optionalexpenses-item"),
+    chooseincome = document.querySelector(".choose-income"),
+    checksavings = document.querySelector(".checksavings"),
+    sum = document.querySelector("choose-sum"),
+    percent = document.querySelector(".choose-percent"),
+    year = document.querySelector(".year-value"),
+    month = document.querySelector(".month-value"),
+    day = document.querySelector(".day-value");
+
+    console.log(optexpenses);
